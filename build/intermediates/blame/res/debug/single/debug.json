@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/src/main/res/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/build/intermediates/res/merged/debug/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
+    },
+    {
+        "merged": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/build/intermediates/res/merged/debug/drawable-xhdpi_green_icon.png.flat",
+        "source": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/src/main/res/drawable-xhdpi/green_icon.png"
+    },
+    {
+        "merged": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/build/intermediates/res/merged/debug/mipmap-mdpi_app_icon.png.flat",
+        "source": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/src/main/res/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/build/intermediates/res/merged/debug/drawable-xhdpi_red_icon.png.flat",
+        "source": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/src/main/res/drawable-xhdpi/red_icon.png"
+    },
+    {
+        "merged": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/build/intermediates/res/merged/debug/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/src/main/res/mipmap-anydpi-v26/app_icon.xml"
+    },
+    {
+        "merged": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/build/intermediates/res/merged/debug/drawable-xhdpi_app_banner.png.flat",
+        "source": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/src/main/res/drawable-xhdpi/app_banner.png"
+    },
+    {
+        "merged": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/home/cognomen/StudioProjects/SpaceHRGame/SpaceGame/src/main/res/layout/main.xml"
+    }
+]
