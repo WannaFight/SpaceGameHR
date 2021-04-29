@@ -1,3 +1,4 @@
 .gradle/*
 .idea/*
 local.properties
+/src/main/java/com/BogdanComany/SpaceGame/test.java

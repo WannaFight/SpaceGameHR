@@ -181,6 +181,7 @@ public class HeartRateMonitor extends Activity {
 
                 double sum = 0;
 
+//              Counting total time of measurements
                 for (double d : heartBeatIntervals) {
                     sum += d;
 //                    Log.d("intervals", d + "");
@@ -189,9 +190,12 @@ public class HeartRateMonitor extends Activity {
                 Log.i("Intervals", heartBeatIntervals + "");
                 Log.d("Intervals amount", heartBeatIntervals.size() + "");
 
+//              Counting MO
                 double MO = sum / heartBeatIntervals.size();
                 Log.d("MO", MO + "");
 
+//              Counting occurrence of MO, if difference between value of interval
+//              is less than threshold -> increment
                 final double threshold = 0.1;
                 int count = 0;
 
@@ -199,7 +203,7 @@ public class HeartRateMonitor extends Activity {
                     if (Math.abs(d -  MO) < threshold)
                         count++;
                 }
-
+//              Counting frequency of MO
                 double AMO = (double) count/heartBeatIntervals.size() * 100;
                 Log.d("AMO", AMO + "");
                 double MxDMn = Collections.max(heartBeatIntervals) - Collections.min(heartBeatIntervals);
@@ -207,11 +211,12 @@ public class HeartRateMonitor extends Activity {
                 Log.d("Mn", Collections.min(heartBeatIntervals) + "");
                 Log.d("Mx", Collections.max(heartBeatIntervals) + "");
 
+//              Counting stress index
                 stress_index = AMO / (2 * MxDMn * MO);
                 Log.d("SI", stress_index + "");
                 heartBeatIntervals.clear();
 
-                if (stress_index > 1)
+                if (stress_index > 75)
                     finishAffinity();
 
                 finish();
